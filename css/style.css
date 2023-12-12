@@ -1,0 +1,101 @@
+
+:root{
+	--color-negro:#222;
+	--menu-hover:#b68834;
+	--color-cafe:#b68834;
+	--color-gris:#777;
+	--fondo-header:#222;
+	--fondo-footer:#282932;
+	
+}
+body{
+ font-family: Poppins, sans-serif;
+ font-size: 14px;
+}
+
+header{
+	position: relative;
+	background-color: var(--fondo-header);
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+h1{
+font-weight: bold;
+color: #FFFFFF;
+}
+
+h6{
+color: #b68834;
+}
+
+.hero {
+  height: 600px;
+  background-image: url("../img/header-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  position:static;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 200px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.column{
+  width: 50%;
+}
+
+.titulos{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.menu {
+  height: 600px;
+  background-image: url("../img/menu-bg.jpg");
+  padding: 70px 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kind {
+  margin-top: 60px;
+  padding: 70px 0;
+}
+
+
+
+footer{
+	background-color: var(--fondo-footer);
+	background-image: url("../img/footer-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: var(--color-cafe);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
